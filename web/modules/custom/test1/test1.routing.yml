@@ -1,0 +1,15 @@
+test1:
+  path: '/m'
+  defaults:
+    _controller: '\Drupal\test1\Controller\Test1Controller::build'
+    _title: 'Example'
+  requirements:
+    _permission: 'access content'
+test1.settings:
+  path: '/admin/config/content/test1'
+  # path: '/admin/structure/block/manage/test1'
+  defaults:
+    _form: '\Drupal\test1\Form\TestSettingsForm'
+    _title: 'Test1 Settings form'
+  requirements:
+    _permission: 'administer site configuration'

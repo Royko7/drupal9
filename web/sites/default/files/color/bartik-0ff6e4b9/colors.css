@@ -1,0 +1,70 @@
+/* ---------- Color Module Styles ----------- */
+
+body {
+  color: #3b3b3b;
+  background: #4a4a4a;
+}
+#page,
+#main-wrapper,
+.region-primary-menu .menu-item a.is-active,
+.region-primary-menu .menu-item--active-trail a {
+  background: #fef7f7;
+}
+.tabs ul.primary li a.is-active {
+  background-color: #fef7f7;
+}
+.tabs ul.primary li.is-active a {
+  border-bottom-color: #fef7f7;
+  background-color: #fef7f7;
+}
+#header {
+  background-color: #f2f1f1;
+  background-image: -webkit-linear-gradient(top, #000000 0%, #f2f1f1 100%);
+  background-image: linear-gradient(to bottom, #000000 0%, #f2f1f1 100%);
+}
+a,
+.link {
+  color: #0073b6;
+}
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: #0090e4;
+}
+a:active,
+.link:active {
+  color: #24aeff;
+}
+.sidebar .block {
+  border-color: #d0d0d0;
+  background-color: #000000;
+}
+.site-footer {
+  background: #4a4a4a;
+}
+.region-header,
+.region-header a,
+.region-header li a.is-active,
+.region-header .site-branding__text,
+.region-header .site-branding,
+.region-header .site-branding__text a,
+.region-header .site-branding a,
+.region-secondary-menu .menu-item a,
+.region-secondary-menu .menu-item a.is-active {
+  color: #ffffff;
+}
+
+/* ---------- Color Form ----------- */
+
+[dir="rtl"] .color-form .color-palette {
+  margin-right: 20px;
+  margin-left: 0;
+}
+[dir="rtl"] .color-form .form-item label {
+  float: right;
+}
+[dir="rtl"] .color-form .color-palette .lock {
+  right: -20px;
+  left: 0;
+}

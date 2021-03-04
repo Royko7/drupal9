@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for test1 module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+use Drupal\test1\Plugin\Block\Test1;
+
+/**
+ * Implements hook_cronapi().
+ */
+
+  /**
+   * The callback for the cron job,
+   */
+
+
+   
